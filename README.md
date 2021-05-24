@@ -4,4 +4,5 @@
 
 * Uses mark down for taking notes
 
-![Uploading Screenshot 2021-05-24 at 11.21.20 PM.png…]()
+![alt text](https://github.com/manoj-inukolunu/yanta/blob/master/yanta.png?raw=true)
+
