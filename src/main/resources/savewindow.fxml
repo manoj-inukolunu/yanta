@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="88.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yanta.controller.SaveNoteController">
+  <children>
+    <Label layoutX="20.0" layoutY="27.0" text="File Path" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="273.0">
+      <font>
+        <Font name="Segoe UI" size="13.0" />
+      </font>
+    </Label>
+    <TextField fx:id="savePathTextField" layoutX="74.0" layoutY="22.0" AnchorPane.leftAnchor="95.0" AnchorPane.rightAnchor="107.0">
+         <font>
+            <Font name="Segoe UI" size="14.0" />
+         </font></TextField>
+    <Button layoutX="268.0" layoutY="22.0" mnemonicParsing="false" onAction="#saveNote" text="Save" AnchorPane.rightAnchor="33.0">
+      <font>
+        <Font name="Segoe UI" size="13.0" />
+      </font>
+    </Button>
+  </children>
+</AnchorPane>
